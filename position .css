@@ -1,65 +1,45 @@
 
 
 .head{
+    position: fixed;
+    top:0;
     background-color: lightblue;
     text-align: center;
     height: 40px;
     padding: 20px;
+    width: 100%;
+    border: 1px solid black;
+   
 
 }
 .cat-left{
-    display: flex;
-    flex-direction: column;
-    height: 900px;
-    width: 400px;
-    margin: 30px;
-    background-color: lightgrey;
-    float: inline-end;
-
+   
+   
 }
 .first-cat{
+    position: absolute;
+    top: 20px;
     margin: 30px;
+    width: 30vw;
 }
 .second-cat{
     margin: 30px;
+    width: 30vw;
 }
 .third-cat{
     margin: 30px;
+    width: 30vw;
 }
 .flower1{
-    float: left;
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    background-color: lightgray; 
-    width: 350px;
-    height: 900px;
-    
+    position: absolute;
+    top: 20%;
 }
-.flower-1{
-margin: 20px;
-width: 300px;
-height: 250px;
-}
-.flower-2{
-    margin: 20px;
-    width: 300px;
-height: 250px;
-}
-.flower-3{
-    margin: 20px;
-    width: 300px;
-height: 250px;
-}
-.cyber{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 40%;
-}
+
 .cyber-punk{
     width: 300px;
     height: 250px;
-    position: relative;
-    top: 350px;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+
 }
