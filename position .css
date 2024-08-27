@@ -1,0 +1,65 @@
+
+
+.head{
+    background-color: lightblue;
+    text-align: center;
+    height: 40px;
+    padding: 20px;
+
+}
+.cat-left{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 400px;
+    margin: 30px;
+    background-color: lightgrey;
+    float: inline-end;
+
+}
+.first-cat{
+    margin: 30px;
+}
+.second-cat{
+    margin: 30px;
+}
+.third-cat{
+    margin: 30px;
+}
+.flower1{
+    float: left;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray; 
+    width: 350px;
+    height: 900px;
+    
+}
+.flower-1{
+margin: 20px;
+width: 300px;
+height: 250px;
+}
+.flower-2{
+    margin: 20px;
+    width: 300px;
+height: 250px;
+}
+.flower-3{
+    margin: 20px;
+    width: 300px;
+height: 250px;
+}
+.cyber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
+}
+.cyber-punk{
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 350px;
+}
