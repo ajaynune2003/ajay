@@ -1,45 +1,68 @@
+body{
+  /*  overflow-x: hidden;*/
+}
 
 
 .head{
-    position: fixed;
-    top:0;
     background-color: lightblue;
-    text-align: center;
-    height: 40px;
-    padding: 20px;
+    position: absolute;
+    top: -1px;
     width: 100%;
-    border: 1px solid black;
-   
-
+    text-align: center;
 }
 .cat-left{
-   
-   
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    z-index: -1;
+    background-color: lightgray;
 }
 .first-cat{
     position: absolute;
-    top: 20px;
-    margin: 30px;
-    width: 30vw;
+    top: 200px;
+    right: 100px;
+    
 }
 .second-cat{
-    margin: 30px;
-    width: 30vw;
+    position: absolute;
+    top: 400px;
+    right:100px;
 }
 .third-cat{
-    margin: 30px;
-    width: 30vw;
+    position: absolute;
+    top: 300;
+    right: 100px;
 }
 .flower1{
     position: absolute;
-    top: 20%;
+    top: 70px;
+    left: 70px;
+    background-color: lightgrey;
 }
-
-.cyber-punk{
-    width: 300px;
-    height: 250px;
+.flower-1{
     position: absolute;
-    top: 50%;
-    left: 150px;
+    top: 0px;
+    width: 300px;
+    height: 200px;
+    
+}
+.flower-2{
+    position: absolute;
+    top: 220px;
+    width: 300px;
+    height: 200px;
 
+}
+.flower-3{
+    position: absolute;
+    top: 450px;
+    width: 300px;
+    height: 200px;
+}
+.cyber{
+    position: absolute;
+    top:350px;
+   
+    left: 600px;
+    
 }
